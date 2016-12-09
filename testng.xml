@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testSuite">
+  <test name="TestAPI">
+    <classes>
+      <class name="testcases.TestPost"/>
+      <class name="testcases.TestGet"/>
+      <class name="testcases.TestPatch"/>
+      <class name="testcases.TestDelete"/>
+      <class name="testcases.TestPut"/>
+    </classes>
+  </test> <!-- TestAPI -->
+</suite> <!-- testSuite -->
